@@ -1,0 +1,46 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.grid {
+    height: 450px;
+    width: 460px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 30%;
+}
+
+.grid div {
+    background-color: lightgray;
+    border: solid;
+    border-color: rgb(86, 16, 116);
+    border-width: 1px;
+    height: 28px;
+    width: 28px;
+    font-size: 19px;
+    text-align: center;
+    position: relative;
+}
+
+.bomb-here {
+    position: relative;
+    background-size: cover;
+}
+
+.bomb-explode {
+    background-image: url('explodedbomb.png');
+    background-size: cover;
+    position: relative;
+}
+
+.clicked-square {
+    background-color: cadetblue;
+    text-align: center;
+    position: relative;
+}
+
+.clover {
+    background-color: rgb(22, 9, 59);
+    position: relative;
+}
